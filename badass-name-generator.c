@@ -20,42 +20,12 @@ int main(){
 
 
 
-	char forename[100][16] = {"evil", "dark","merciless",
-        "diabolical", "wicked", "fierce", "deadly", "lethal", "dominant",
-        "unstoppable", "undefeated", "destructive", "intense", "brutal",
-        "relentless", "vile", "sinister", "cruel", "fiery", "infernal",
-        "bloodthirsty", "dangerous", "violent", "grim", "child", "dark",
-        "shadowy", "demonic", "chilling", "vengeful", "infamous", "heinous",
-        "hateful", "cold-blooded", "treacherous", "villainous", "notorious",
-        "cunning", "crafty", "ruthless", "formidable", "mercenary", "rugged",
-        "belligerent", "rampant", "prowling", "wild", "malicious", "noxious",
-        "rancid", "foul", "venomous", "noxious", "aggressive", "fearsome",
-        "scheming", "murderous", "baleful", "audacious", "furious",
-        "hellish", "carnage", "wreaking", "executioner", "tormentor",
-        "annihilator", "onslaught", "cataclysm", "obliterator", "onslaught",
-        "saboteur", "desperado", "exterminator", "maniac", "nemesis",
-        "terror", "chaos", "abyss", "vengeance", "fury", "havoc", "wrath",
-        "doom", "calamity", "plague", "carnage", "ravage", "apocalypse",
-        "dread", "butcher", "predator" };
-	char surname[108][16] = {"energy", "entropy", "predator","Doom", "Nightmare", "Slaughter", "Havoc", "Abyss", "Tyranny",
-        "Torment", "Desolation", "Cataclysm", "Eclipse", "Annihilation",
-        "Plague", "Inferno", "Chaos", "Malevolence", "Ruin", "Pandemonium",
-        "Nemesis", "Carnage", "Oblivion", "Shadow", "Terror", "Vengeance",
-        "Blasphemy", "Phantom", "Apocalypse", "Torture", "Curse", "Fury",
-        "Venom", "Destruction", "Hellfire", "Bloodlust", "Sorcery",
-        "Maleficence", "Eradication", "Misery", "Suffering", "Ruination",
-        "Abomination", "Brutality", "Despair", "Hate", "Fate", "Extinction",
-        "Wrath", "Dominion", "Calamity", "Agony", "Enigma", "Eternal",
-        "Punishment", "Ravager", "Malice", "Malefactor", "Maelstrom",
-        "Pariah", "Crisis", "Impending Doom", "Violence", "Tumult",
-        "Perdition", "Blight", "Avalanche", "Hecate", "Verdict", "Reckoning",
-        "Obelisk", "Heresy", "Coven", "Deception", "Defiance", "Eidolon",
-        "Iconoclast", "Omega", "Lament", "Iconoclasm", "Omega",
-        "Discord", "Acheron", "Peril", "Eon", "Iniquity", "Insanity",
-        "Labyrinth", "Resurgence", "Stygian", "Purgatory", "Nether",
-        "Tempest", "Sinister", "Grimoire", "Rapture", "Ominous", "Savage",
-        "Impurity", "Sepulcher", "Cacophony", "Desolation", "Phantasm",
-        "Ordeal", "Necropolis", "Extirpation", "Ruination", "Plunder" };
+	char forename[100][16] = {"ongar", "bangor","gribis",
+        "gangur", "gambash", "drakor", "shadur", "goggis", "dlimpar",
+        "glimpar", "bolbo", "angresh", "kvangor", "tribis",
+        "dabesh", "grastan", "dushan", "kobil", "tramvar", "solpesh",
+        "okrip", "takosh", "blambur", "brambor", "sergej", "olash",
+        "tramvan", "gugul", "gangor"};
 	int quantity;
 
 	printf("\n\nWelcome to the \033[1;31mBadass Name Generator\033[0m.\n");
